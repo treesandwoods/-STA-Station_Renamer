@@ -1,10 +1,10 @@
 class StationRenamer extends GSInfo {
 
     function GetAuthor()        { return "Ginger Ninja XL"; }
-    function GetName()          { return "[STA] Station Renamer"; }
-    function GetDescription()   { return "Renames stations with unique town codes of configurable length."; }
+    function GetName()          { return "Dribble Station Renamer"; }
+    function GetDescription()   { return "Renames stations to my liking."; }
     function GetVersion()       { return 1; }
-    function GetDate()          { return "2026-02-13"; }
+    function GetDate()          { return "2026-03-24"; }
     function CreateInstance()   { return "StationRenamer"; }
     function GetShortName()     { return "STRN"; } // unique 4-letter ID
     function GetAPIVersion()    { return "15"; }
