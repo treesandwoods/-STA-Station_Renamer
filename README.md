@@ -1,4 +1,4 @@
-# Station-Code-Renamer
+# Dribble-Station-Renamer
 OpenTTD Game Script.
 
 Renames stations how I prefer them.
