@@ -1,6 +1,8 @@
 # Dribble-Station-Renamer
 OpenTTD Game Script.
 
+**Fork of GingerNinjaXL's -STA-Station_Renamer**
+
 Renames stations how I prefer them.
 
 Rail:   Town  
