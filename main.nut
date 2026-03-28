@@ -196,11 +196,8 @@ class StationRenamer extends GSController {
 
         // Determine station type and select appropriate naming templates
         // TRAIN, AIRPORT, DOCK
-        if (GSStation.HasStationType(station_id, GSStation.STATION_TRAIN)) {
-        	template = this.name_templates.train;
-			backup_template = this.backup_templates.train;
-        }
-        else if (GSStation.HasStationType(station_id, GSStation.STATION_AIRPORT)) {
+        
+        if (GSStation.HasStationType(station_id, GSStation.STATION_AIRPORT)) {
         	template = this.name_templates.airport;
 			backup_template = this.backup_templates.airport;
         }
