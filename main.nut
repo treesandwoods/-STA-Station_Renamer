@@ -14,7 +14,7 @@ class StationRenamer extends GSController {
 
     // Name templates for different station types
     name_templates = {
-        train = "{town}",
+        
         airport = "{town} Airport",
         dock = "{town} Dock",
         bus = "{town} S{num}",
@@ -24,7 +24,7 @@ class StationRenamer extends GSController {
 
     // Backup templates in case of name conflicts, include original name for reference
 	backup_templates = {
-        train = "{town}",
+        
         airport = "{town} Airport",
         dock = "{town} Dock",
         bus = "{town} S{num}",
